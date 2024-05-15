@@ -96,7 +96,7 @@ App({
 
   },
   /**
-   * 新增数据
+   * 修改数据
    */
   upsateStore:  function (item, cb) {
     var that = this;
@@ -104,7 +104,7 @@ App({
         const { data, error } = await supabase
           .from('notepad_list')
           .update([item])
-          .select()
+          .eq("id",item.id).select()
         if (data) {
           item.create_time = formatTime(item.create_time);
           item.update_time = formatTime(item.update_time);

@@ -37,7 +37,7 @@ page{
 }
 .item .bottom{
     height: 80rpx;
-    background: #9f7968;
+    background: #c06629;
     font-size: 22rpx;
     
 }

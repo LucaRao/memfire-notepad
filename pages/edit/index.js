@@ -57,7 +57,7 @@ Page({
         app.upsateStore(this.data.item, function(res) {
             if (res) {
               wx.showToast({
-                title: "删除成功",
+                title: "修改成功",
                 icon: 'success',
             })
             setTimeout(function () {

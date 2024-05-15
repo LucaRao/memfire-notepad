@@ -6,7 +6,7 @@
     "pages/create/index"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#ff9b6e",
+    "navigationBarBackgroundColor": "#FF7E4F",
     "navigationBarTitleText": "MemFire云笔记",
     "navigationBarTextStyle":"white",
     "backgroundTextStyle":"light",
